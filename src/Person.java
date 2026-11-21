@@ -27,6 +27,6 @@ public abstract class Person {
     public String getAddress() { return address; }
     public String getEmail()   { return email; }
 
-    /** Each subclass describes its own role (polymorphism). */
+    //Each subclass describes its own role (polymorphism).
     public abstract String getRole();
 }
